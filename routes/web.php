@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::match(['get', 'post'],'/','IndexController@indexHome'); 
+Route::match(['get', 'post'],'/','IndexController@indexHome');
+Route::get('archive','IndexController@archiveHome');
+Route::get('category','IndexController@categoryHome');
+Route::get('blog-details','IndexController@blog_detailsHome');
+Route::get('contact','IndexController@contactHome');

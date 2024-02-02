@@ -21,7 +21,7 @@
         <div class="owl-carousel owl-theme blog-slider">
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide1.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide1.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -31,7 +31,7 @@
           </div>
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide2.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide2.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -41,7 +41,7 @@
           </div>
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide3.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide3.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -51,7 +51,7 @@
           </div>
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide1.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide1.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -61,7 +61,7 @@
           </div>
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide2.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide2.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -71,7 +71,7 @@
           </div>
           <div class="card blog__slide text-center">
             <div class="blog__slide__img">
-              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide3.png') }}" alt="">
+              <img class="card-img rounded-0" src="{{ url('front/img/blog/blog-slider/blog-slide3.png')}}" alt="">
             </div>
             <div class="blog__slide__content">
               <a class="blog__slide__label" href="#">Fashion</a>
@@ -91,7 +91,7 @@
           <div class="col-lg-8">
             <div class="single-recent-blog-post">
               <div class="thumb">
-                <img class="img-fluid" src="{{ url('front/img/blog/blog1.png') }}" alt="">
+                <img class="img-fluid" src="{{ url('front/img/blog/blog1.png')}}" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -111,7 +111,7 @@
 
             <div class="single-recent-blog-post">
               <div class="thumb">
-                <img class="img-fluid" src="{{ url('front/img/blog/blog2.png') }}" alt="">
+                <img class="img-fluid" src="{{ url('front/img/blog/blog2.png')}}" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -131,7 +131,7 @@
 
             <div class="single-recent-blog-post">
               <div class="thumb">
-                <img class="img-fluid" src="{{ url('front/img/blog/blog3.png') }}" alt="">
+                <img class="img-fluid" src="{{ url('front/img/blog/blog3.png')}}" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -151,7 +151,7 @@
 
             <div class="single-recent-blog-post">
               <div class="thumb">
-                <img class="img-fluid" src="{{ url('front/img/blog/blog4.png') }}" alt="">
+                <img class="img-fluid" src="{{ url('front/img/blog/blog4.png')}}" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -198,138 +198,7 @@
           </div>
 
           <!-- Start Blog Post Siddebar -->
-          <div class="col-lg-4 sidebar-widgets">
-              <div class="widget-wrap">
-                <div class="single-sidebar-widget newsletter-widget">
-                  <h4 class="single-sidebar-widget__title">Newsletter</h4>
-                  <div class="form-group mt-30">
-                    <div class="col-autos">
-                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter email'">
-                    </div>
-                  </div>
-                  <button class="bbtns d-block mt-20 w-100">Subcribe</button>
-                </div>
-
-
-                <div class="single-sidebar-widget post-category-widget">
-                  <h4 class="single-sidebar-widget__title">Catgory</h4>
-                  <ul class="cat-list mt-20">
-                    <li>
-                      <a href="#" class="d-flex justify-content-between">
-                        <p>Technology</p>
-                        <p>(03)</p>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="d-flex justify-content-between">
-                        <p>Software</p>
-                        <p>(09)</p>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="d-flex justify-content-between">
-                        <p>Lifestyle</p>
-                        <p>(12)</p>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="d-flex justify-content-between">
-                        <p>Shopping</p>
-                        <p>(02)</p>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="d-flex justify-content-between">
-                        <p>Food</p>
-                        <p>(10)</p>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="single-sidebar-widget popular-post-widget">
-                  <h4 class="single-sidebar-widget__title">Popular Post</h4>
-                  <div class="popular-post-list">
-                    <div class="single-post-list">
-                      <div class="thumb">
-                        <img class="card-img rounded-0" src="{{ url('front/img/blog/thumb/thumb1.png') }}" alt="">
-                        <ul class="thumb-info">
-                          <li><a href="#">Adam Colinge</a></li>
-                          <li><a href="#">Dec 15</a></li>
-                        </ul>
-                      </div>
-                      <div class="details mt-20">
-                        <a href="blog-single.html">
-                          <h6>Accused of assaulting flight attendant miktake alaways</h6>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="single-post-list">
-                      <div class="thumb">
-                        <img class="card-img rounded-0" src="{{ url('front/img/blog/thumb/thumb2.png') }}" alt="">
-                        <ul class="thumb-info">
-                          <li><a href="#">Adam Colinge</a></li>
-                          <li><a href="#">Dec 15</a></li>
-                        </ul>
-                      </div>
-                      <div class="details mt-20">
-                        <a href="blog-single.html">
-                          <h6>Tennessee outback steakhouse the
-                            worker diagnosed</h6>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="single-post-list">
-                      <div class="thumb">
-                        <img class="card-img rounded-0" src="{{ url('front/img/blog/thumb/thumb3.png') }}" alt="">
-                        <ul class="thumb-info">
-                          <li><a href="#">Adam Colinge</a></li>
-                          <li><a href="#">Dec 15</a></li>
-                        </ul>
-                      </div>
-                      <div class="details mt-20">
-                        <a href="blog-single.html">
-                          <h6>Tennessee outback steakhouse the
-                            worker diagnosed</h6>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                  <div class="single-sidebar-widget tag_cloud_widget">
-                    <h4 class="single-sidebar-widget__title">Popular Post</h4>
-                    <ul class="list">
-                      <li>
-                          <a href="#">project</a>
-                      </li>
-                      <li>
-                          <a href="#">love</a>
-                      </li>
-                      <li>
-                          <a href="#">technology</a>
-                      </li>
-                      <li>
-                          <a href="#">travel</a>
-                      </li>
-                      <li>
-                          <a href="#">software</a>
-                      </li>
-                      <li>
-                          <a href="#">life style</a>
-                      </li>
-                      <li>
-                          <a href="#">design</a>
-                      </li>
-                      <li>
-                          <a href="#">illustration</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+          @include('front.layouts.sidebar')
           <!-- End Blog Post Siddebar -->
         </div>
     </section>
