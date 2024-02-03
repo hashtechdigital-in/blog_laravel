@@ -7,23 +7,31 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     //
-    function indexHome(Request $req){
+    public function indexHome(Request $req){
         return view('front.index');
     } 
 
-    function archiveHome(Request $req){
+    public function archiveHome(Request $req){
         return view('front.archive');
     }
 
-    function categoryHome(Request $req){
+    public function categoryHome(Request $req){
         return view('front.category');
     }
 
-    function blog_detailsHome(Request $req){
+    public function blog_detailsHome(Request $req){
         return view('front.blog-details');
     }
 
-    function contactHome(Request $req){
+    public function contactHome(Request $req){
         return view('front.contact');
+    }
+
+    public function register_admin(Request $req){
+        return view('front.register');
+    }
+
+    public function login_admin(Request $req){
+        return view('front.login');
     }
 }

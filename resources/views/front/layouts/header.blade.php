@@ -23,8 +23,7 @@
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="{{ url('contact') }}">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ url('admin') }}">Admin</a></li>
-            </ul>
+              <li class="nav-item"><a class="nav-link" href="{{ url('register_admin') }}">Admin</a></li>
             <ul class="nav navbar-nav navbar-right navbar-social">
               <li><a href="#"><i class="ti-facebook"></i></a></li>
               <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
