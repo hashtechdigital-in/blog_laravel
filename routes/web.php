@@ -15,14 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
+// front routes
 Route::match(['get', 'post'],'/','IndexController@indexHome');
 Route::get('archive','IndexController@archiveHome');
 Route::get('category','IndexController@categoryHome');
 Route::get('blog-details','IndexController@blog_detailsHome');
 Route::get('contact','IndexController@contactHome');
+
+
+//admin routes
 
 require __DIR__.'/auth.php';
