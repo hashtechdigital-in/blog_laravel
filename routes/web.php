@@ -22,8 +22,8 @@ Route::get('archive','IndexController@archiveHome');
 Route::get('category','IndexController@categoryHome');
 Route::get('blog-details','IndexController@blog_detailsHome');
 Route::get('contact','IndexController@contactHome');
-Route::get('register_admin','IndexController@register_admin');
-Route::get('login_admin','IndexController@login_admin');
+Route::match(['get','post'],'register_admin','IndexController@register_admin');
+Route::match(['get','post'],'login_admin','IndexController@login_admin');
 
 //admin routes
 

@@ -12,7 +12,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Au Register Forms by Colorlib</title>
+    <title>Register Admin</title>
 
     <!-- Icons font CSS-->
     <link href="{{ url('front/login_form/vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
@@ -37,7 +37,7 @@
                 </div>
                 <div>Already Member - <a href="{{ url('login_admin')}}">Login</a></div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form method="POST" action="{{ url('register_admin')}}" enctype="multipart/form-data">@csrf
                         <div class="form-row m-b-55">
                             <div class="name">Name</div>
                             <div class="value">
@@ -62,7 +62,7 @@
                             <div class="name">password</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="password" name="company">
+                                    <input class="input--style-5" type="password" name="password">
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                             <div class="name">Image</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="file" name="company">
+                                    <input class="input--style-5" type="file" name="admin_img">
                                 </div>
                             </div>
                         </div>
@@ -91,11 +91,11 @@
                             <label class="label label--block">Select Your Type</label>
                             <div class="p-t-15">
                                 <label class="radio-container m-r-55">Admin
-                                    <input type="radio" checked="checked" name="exist">
+                                    <input type="radio" checked="checked" name="type" value="Admin">
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="radio-container">User
-                                    <input type="radio" name="exist">
+                                    <input type="radio" name="type" value="User">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
