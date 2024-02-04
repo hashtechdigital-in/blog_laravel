@@ -78,7 +78,7 @@ class IndexController extends Controller
             $data = $req->all();
             //dd($data); die();
             if (Auth::guard('admin')->attempt(['email'=>$data['email'],'password'=>$data['password'],'status'=>1])) { 
-                return redirect('/admin/dashboard');
+                return redirect('/admin/admin_dashboard');
              }
         }
 

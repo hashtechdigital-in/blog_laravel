@@ -27,10 +27,18 @@ Route::match(['get','post'],'login_admin','IndexController@login_admin');
 
 //admin routes
 
-Route::prefix('/admin')->namespace('admin')->group(function(){ 
+Route::prefix('admin/')->namespace('admin')->group(function(){ 
 
     Route::group(['middleware' => ['admin']], function(){
 
+        Route::get('admin_dashboard','AdminController@adminDashboard');
+        Route::get('form','AdminController@form');
+        Route::get('blank','AdminController@blank');
+        Route::get('tab','AdminController@tab');
+        Route::get('table','AdminController@table');
+        Route::get('ui','AdminController@ui');
+
+        Route::get('logout','AdminController@adminLogout');
     }); 
 }); 
 
